@@ -1,0 +1,9 @@
+name: 'AWS cli and kubectl for AWS EKS'
+author: Gordon Young
+description: Action for running kubectl commands to interact with EKS cluster
+branding:
+  color: 'white'
+  icon: 'command'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
